@@ -52,7 +52,49 @@ body {
   margin: 0 10px;
 }
 
-/*----- Body Content -----*/
+/*-----**** Body Content ****-----*/
 
+.lead-story {
+  border: 1px solid red;
+}
+
+.lead-story .image-content {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  font-size: 40px;
+  margin-top: 0;
+  text-align: left;
+}
+
+.image-content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  height: 300px;
+  justify-content: center;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+}
+
+.column.large {
+  display: flex;
+  width: 630px;
+}
+
+.column.medium {
+  display: flex;
+  width: 300px;
+}
+
+.column.small {
+  display: flex;
+  width: 240px;
+}
 
 /*----- Footer -----*/
