@@ -3,71 +3,56 @@ body {
   padding: 0;
 }
 
+body {
+  color: black;
+  font-family: Georgia;
+  font-size: 17px;
+}
+
 /*----- Navigation Bar -----*/
 
 #navbar {
+  top: 0px;
   position: fixed;
   display: flex;
-
   height: 75px;
   width: 100%;
-  z-index: 5;
-
   font-size: 14px;
   border-bottom: 1px solid black;
   font-family: Verdana;
-}
-
-#mytimes {
-  align-self: center;
-}
-
-header {
-  /*display: inline-flex;
-  position: fixed;
-  z-index: 5;
-  width: 100%;
-  height: 75px;
-  font-size: 14px;
-  font-family: Verdana;*/
-
-  /*-- different code --*/
-
-  color: MediumAquamarine;
   font-weight: bold;
-  padding: 10px 0px 0px 10px;
   background-color: white;
+  align-items: center;
+  justify-content: space-between;
 }
 
-nav {
-  /*display: inline-flex;
-  position: fixed;
-  width: 100%;
-  height: 75px;
-  font-size: 14px;
-  font-family: Verdana;*/
-
-  /*-- different code --*/
-
-  border-bottom: 1px solid black;
-  text-decoration: none;
-  font-weight: bold;
-  justify-content: flex-end;
-  z-index: 5;
-
+#navbar nav {
+  margin-right: 30px;
 }
 
-nav span {
-  display: inline-block;
-  align-content: center;
-  width: 65px;
-  text-align: center;
-  /*-padding: 0px 25px 0px 0px;*/
+#navbar .logo {
+  align-items: center;
+  display: flex;
+  margin-left: 30px;
 }
 
-nav a {
-  text-decoration: underline;
+#navbar p {
+  color: MediumAquamarine;
+  display: inline;
+  margin-left: 10px;
+}
+
+#navbar nav {
+  margin-right: 30px;
+}
+
+#navbar a {
   color: black;
+  font-weight: bold;
+  margin: 0 10px;
 }
 
 /*----- Body Content -----*/
+
+
+/*----- Footer -----*/
